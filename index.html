@@ -1,0 +1,193 @@
+<div id="mybox">
+  <span id="logo"> <img class = "fit=picture" src="cutdown - Copy.JPG" height = "100" width="100"> </span>
+  <span id="title"><h1>Lucas Henry </h1><h2>616 555 7777 <img class = "phone" src="download (1).png" height = "25" width="25"></h2></span>
+  <span id="nav">
+    I created this site by first editing the code I found on JSfiddle and modified it to get the Struturce. then I went step by step to full fill each requirement in the area either googling or asking ChatGPT for an explaination of how to do something and with my own flare implemented it to the the assignment 
+
+
+
+  </span>
+  <span id="main"><table>
+    <tr>
+      <th>Course Number</th>
+      <th>Course Name</th>
+      <th>Semester</th>
+    </tr>
+    <tr>
+      <td>MTH 225</td>
+      <td>Discrete Struturces 1</td>
+      <td>Fall 2022<td>
+    </tr>
+  </tr>
+  <tr>
+    <td>CIS 350</td>
+    <td>Software Engineering</td>
+    <td>Fall 2022<td>
+  </tr>
+  <tr>
+    <td>BMS 202</td>
+    <td> Anatomy</td>
+    <td>Fall 2022<td>
+  </tr>
+<tr>
+  <td>CIS 353</td>
+  <td>DataBase</td>
+  <td>Fall 2022<td>
+</tr>
+</tr>
+<tr>
+  <td>___________</td>
+  <td>___________</td>
+  <td>___________</td>
+</tr>
+<tr>
+  <td>CIS 241</td>
+  <td>C Programming</td>
+  <td>Winter 2022<td>
+</tr>
+<tr>
+  <td>MTH 201</td>
+  <td>Cal 1</td>
+  <td>winter 2022<td>
+</tr>
+<tr>
+  <td>WRT 350</td>
+  <td>Business Com</td>
+  <td>Winter 2022<td>
+</tr>
+<tr>
+  <td>CIS 160</td>
+  <td>Intro to Python</td>
+  <td>Winter 2022<td>
+</tr>
+  </table></span>
+
+
+   <span id="main2">Python, a language so versatile and grand,<br>
+    With methods that make coding so easy to understand.<br>
+    <br>
+    From lists to dictionaries, it can do it all,<br>
+    With the power of functions, the code will never fall.<br>
+    <br>
+    Methods like <code>sort()</code> and <code>append()</code>, they simplify our days,<br>
+    And with <code>pop()</code> and <code>remove()</code>, our lists are never in a craze.<br>
+    <br>
+    <code>join()</code> and <code>split()</code> strings, with ease and so much grace,<br>
+    And "count" and "index" are quick ways to find a place.<br>
+    <br>
+    "Define" and "call", functions to our aid,<br>
+    With "return" and "yield", they always hit the grade.<br>
+    
+    So let's embrace Python, and all its mighty tools,<br>
+    For coding will be fun, with methods as our rules. <br> </span>
+  
+    <span id="side"><img class = "Python" src="Python-logo-notext.svg.png" height = "250" width="250"></span>
+  
+
+   <span id="status">    <ul>
+    <li><a href="https://www.apple.com">Apple</a></li>
+    <li><a href="https://www.google.com">Google</a></li>
+    <li><a href="https://www.ibm.com">IBM</a></li>
+    <li><a href="https://www.tesla.com">Tesla</a></li>
+  </ul></span>
+
+
+
+
+   <span id="bottom">    
+
+    <div class="icon-container">
+      <a href="https://twitter.com/" target="_blank">
+        <img class="icon" src="twitter.png" alt="Twitter Icon">
+      </a>
+      <a href="https://www.facebook.com/" target="_blank">
+        <img class="icon" src="facebook.png" alt="Facebook Icon">
+      </a>
+      <a href="https://www.instagram.com/" target="_blank">
+        <img class="icon" src="Instagram-Icon.png" alt="Instagram Icon">
+      </a>
+      <a href="https://github.com/" target="_blank">
+        <img class="icon" src="github.jpg" alt="GitHub Icon">
+      </a>
+      <a href="https://www.pinterest.com/" target="_blank">
+        <img class="icon" src=".png" alt="Pinterest Icon">
+      </a>
+    </div>
+
+
+
+
+   </span>
+</div>
+
+<style>
+#mybox {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-areas:
+    "logo title title"
+    "nav main side"
+    "nav status main2"
+    "nav bottom bottom";
+    
+    gap: 2px;
+}
+
+span {
+  text-align: center;
+  color: white;
+  padding: 1em;
+}
+
+#logo {
+  background: hsl(217, 77%, 60%)
+}
+
+#title {
+  background: red;
+  grid-area: title
+}
+#nav {
+  background: hsl(102, 36%, 48%);
+  grid-area: nav;
+}
+#main {
+  background: hsl(276, 100%, 50%);
+  grid-area: main;
+}
+
+#main2 {
+  background: purple;
+  grid-area: main2;
+}
+
+#side {
+  background: grey;
+  grid-area: side;
+}
+#status {
+  background: black;
+  grid-area: status;
+}
+
+#bottom {
+  background: red;
+  grid-area: bottom;
+}
+
+.icon-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 5vh;
+      }
+      .icon {
+        height: 50px;
+        width: 50px;
+        margin: 10px;
+      }
+
+</style>
